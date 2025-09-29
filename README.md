@@ -6,6 +6,13 @@
   A Social Login mock server for development and testing.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=node.js&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS">
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
 ## 🚀 Quick Start
 
 ### Option 1: Docker Compose (Recommended)
