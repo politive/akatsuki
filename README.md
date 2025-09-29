@@ -14,14 +14,23 @@
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </p>
 
+## 🔐 What is AKATSUKI?
+
+AKATSUKI is a mock OAuth authentication server for development and testing.
+
+- 🔐 Currentry Supports **Google OAuth 2.0** and **LINE OAuth 2.0**
+- 🐳 **Ready to use** - Just add configuration to your Docker Compose file
+- ⚡ **Zero setup** - Simply add configuration files
+- 🧪 **Development & testing only** - Not recommended for production use
+- 🎯 **Simple** - Test OAuth authentication without complex configuration
+
+
 ## 🚀 Quick Start
 
 ### Option 1: Docker Compose (Recommended)
 
 ```bash
-# compose.yml
-
-version: '3.8'
+# compose.yml in your project
 services:
   oauth-mock:
     image: ghcr.io/politive/akatsuki:latest
@@ -178,13 +187,12 @@ src/
 
 ## 🛠️ Available Scripts
 
-| Script               | Description                              |
-| -------------------- | ---------------------------------------- |
-| `npm run dev`        | Start development server with hot reload |
-| `npm test`           | Run all tests                            |
-| `npm run test:watch` | Run tests in watch mode                  |
-| `npm run build`      | Build for production                     |
-| `npm start`          | Start production server                  |
+| Script          | Description                              |
+| --------------- | ---------------------------------------- |
+| `npm run dev`   | Start development server with hot reload |
+| `npm test`      | Run all tests                            |
+| `npm run build` | Build for production                     |
+| `npm start`     | Start production server                  |
 
 ## ⚠️ Security Notice
 
